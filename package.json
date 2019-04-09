@@ -1,0 +1,31 @@
+{
+  "name": "wlppr",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "react-devtools": "react-devtools"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.1",
+    "react-native-image-progress": "^1.1.1",
+    "react-native-progress": "^3.5.0",
+    "react-native-spinkit": "^1.2.0",
+    "react-native-swiper": "^1.5.14",
+    "unsplash-js": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.0",
+    "@babel/runtime": "7.4.0",
+    "babel-jest": "24.5.0",
+    "jest": "24.5.0",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-devtools": "^3.6.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
